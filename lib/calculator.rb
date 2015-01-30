@@ -28,8 +28,8 @@ class Calculator
   # returns the item in memory and wipes memory
   def memory
     mem = @memory
-    @memory = nil
     return mem
+    @memory = nil
   end
   def memory=(mem)
     @memory = mem
